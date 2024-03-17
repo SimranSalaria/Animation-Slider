@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family:"Roboto", sans-serif;
+    text-align: center;
+}
+   
+main{
+    background: url('images/shroom.jpg');  
+}
+    
+
+
+nav{
+    border: 2px solid #333;
+    
+    margin: 0 auto 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 8rem;
+}
+h2{
+    padding: 1rem;
+    background-image:linear-gradient(180deg,rgb(162, 202, 232),rgb(104, 134, 224),blue);
+    
+    color: blanchedalmond;
+}
+ul{
+    list-style-position: none;
+    backdrop-filter: blur(5px);
+}
+li{
+    border-top:1px solid #333;
+    
+}
+li a{
+    display:block;
+    text-decoration: none;
+    font-size: 55px;
+}
+li a,
+li a:visited{
+    color:rgb(23, 11, 65);
+
+}
+li a:hover{
+    box-shadow:0px 4px 0px rgb(245, 247, 247);
+    
+}
+/*
+li:last-child a{
+    border-radius:0 0 2rem 2rem;
+}
+*/
+
+
+
+
+

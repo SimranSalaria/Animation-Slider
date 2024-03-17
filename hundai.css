@@ -1,0 +1,43 @@
+*{
+    padding-top: 0.3rem;
+}
+
+.strt{
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.up{
+    box-sizing: border-box;
+    display: flex;
+    font-size: 1.4rem;
+}
+.up a:hover{
+    
+    box-shadow: 3px 3px 3px rgb(14, 14, 18);
+}
+
+
+
+
+.op{
+    background-color: rgb(133, 133, 166);
+}
+.maindiv{
+    width: 90%;
+    height: 600px;
+    margin-top: 20px;
+    background-color: rgb(176, 176, 225);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50% ,-50%);
+    background-image: url('images/hundai1.jpg');
+    background-size: 100% 100%;
+    
+    animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{background-image:url(images/hundai1.jpg);}
+    75%{background-image:url(images/hundai2.jpg);}
+    
+}
